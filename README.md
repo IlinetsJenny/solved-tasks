@@ -33,4 +33,21 @@ function twoSort(s) {
   }
  return y;
 }
+//Count the Monkeys!
+function monkeyCount(n) {
+  let countArr=[];
+
+  let i = 0;
+  while (i<=n-1){
+   countArr[i]= i;
+  countArr[i] =countArr[i]+1;
+   i++;
+  }
+  return countArr
+}
+//The Wide-Mouthed frog!
+function mouthSize(animal) {
+  if( animal == "ALLIGATOR"|| animal == "alligator"){
+  return "small"} else return "wide";
+}
 ```
