@@ -50,4 +50,21 @@ function mouthSize(animal) {
   if( animal == "ALLIGATOR"|| animal == "alligator"){
   return "small"} else return "wide";
 }
+//Basic Mathematical Operations
+function basicOp(operation, value1, value2)
+{
+  switch(operation) {
+    case "+":
+      return value1 + value2;
+      break;
+    case "-":
+      return value1 - value2;
+      break;
+    case "*":
+      return value1 * value2;
+      break;
+    default:
+      return value1 / value2;
+  }
+}
 ```
