@@ -80,4 +80,33 @@ function calculator(a,b,sign){
     }  
   }else return 'unknown value';
 }
+//Square(n) Sum
+function squareSum(numbers){
+  let sum=0;
+  for(let i=0;i<numbers.length;i++){
+    sum = sum + Math.pow(numbers[i],2);
+  }
+  return sum;
+}
+
+// How good are you really?
+function betterThanAverage(classPoints, yourPoints) {
+classPoints.push(yourPoints);
+let sum=0;
+for (let i=0; i < classPoints.length; i++){
+sum = sum + classPoints[i];
+ }
+return (sum/(classPoints.length) > yourPoints ) ?  false :  true;
+}
+//Sum of positive
+
+function positiveSum(arr) {
+let sum = 0;                         
+for (let i = 0; i < arr.length; i++){
+  if (arr[i] > 0) {                   
+    sum = sum + arr[i];               
+  }
+}
+return sum
+}
 ```
